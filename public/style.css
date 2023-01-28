@@ -12,6 +12,7 @@ html, body{
 	width: 100vw;
 	background: #202020;
 	color: #dcdcdc;
+	user-select: none;
 }
 
 /* ===== Scrollbar CSS ===== */
