@@ -15,6 +15,38 @@ html, body{
 	user-select: none;
 }
 
+/* Context Menu Start =============================================== */
+#contextMenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+	border-radius: 10px;
+  z-index: 2;
+}
+
+#contextMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#contextMenu li {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 2;
+	color: #333;
+	border-bottom: 1px solid #000;
+	white-space: nowrap;
+}
+#contextMenu li:last-child {
+	border-bottom: none;
+}
+/* ================================================= Context Menu End */
+
+
 /* ===== Scrollbar CSS ===== */
 *::-webkit-scrollbar {
 	width: 10px;
